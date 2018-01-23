@@ -7,6 +7,7 @@ This Dockerfile can be used to spin up a govCMS instance.
 A. Commands - Create base govCMS env without default sites
 -------
 
+```
 ////unused -- docker pull mysql:5.6.25
 # Instantiate a new MySQL container to house your database.
 
@@ -18,7 +19,7 @@ docker build -t govcms .
 
 ////unused --  docker run -p 8888:80 --name govcms_server --link testdb:testdb govcms
 docker run -p 8888:80 --name govcms_server govcms
-```
+
 There is no need to use build.properties at this period
 
 
