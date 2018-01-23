@@ -3,11 +3,10 @@ govCMS 4 Docker
 
 This Dockerfile can be used to spin up a govCMS instance.
 
-
+```
 A. Commands - Create base govCMS env without default sites
 -------
 
-```
 ////unused -- docker pull mysql:5.6.25
 # Instantiate a new MySQL container to house your database.
 
